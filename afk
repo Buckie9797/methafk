@@ -1,0 +1,48 @@
+f::
+loop 100000
+
+{
+sendinput {i down}
+sleep 1000
+sendinput {i up}
+sleep 1000
+sendinput {o down}
+sleep 1000
+sendinput {o up}
+sleep 1000
+sendinput {p down}
+sleep 1000
+sendinput {p up}
+sleep 1000
+sendinput {i down}
+sleep 1000
+sendinput {i up}
+sleep 1000
+sendinput {d down}
+sleep 80
+sendinput {d up}
+sleep 1000
+sendinput {i down}
+sleep 1000
+sendinput {i up}
+sleep 1000
+sendinput {o down}
+sleep 1000
+sendinput {o up}
+sleep 1000
+sendinput {p down}
+sleep 1000
+sendinput {p up}
+sleep 1000
+sendinput {i down}
+sleep 1000
+sendinput {i up}
+sleep 1000
+sendinput {a down}
+sleep 80
+sendinput {a up}
+sleep 300000
+}
+g::
+pause
+suspend
